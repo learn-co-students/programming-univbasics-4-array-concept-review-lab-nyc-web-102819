@@ -18,6 +18,7 @@ describe 'Finding data' do
     end
 
     it 'if the value is not found, returns nil' do
+      
       expect(find_element_index(hill,500)).to eq(nil)
       expect(find_element_index(valley,500)).to eq(nil)
       expect(find_element_index(zig_zag,400)).to eq(nil)
